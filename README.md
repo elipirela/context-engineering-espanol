@@ -1,71 +1,70 @@
-# Context Engineering Template
+# Plantilla Context Engineering
 
-A comprehensive template for getting started with Context Engineering - the discipline of engineering context for AI coding assistants so they have the information necessary to get the job done end to end.
-
-> **Context Engineering is 10x better than prompt engineering and 100x better than vibe coding.**
+Una plantilla completa para comenzar con Context Engineering: la disciplina de Context Engineering para asistentes de codificación de IA para que tengan la información necesaria para realizar el trabajo de principio a fin.
+> **Context Engineering is 10x mejor que prompt engineering y 100x mejor vibe coding.**
 
 ## 🚀 Quick Start
 
 ```bash
-# 1. Clone this template
-git clone https://github.com/coleam00/Context-Engineering-Intro.git
-cd Context-Engineering-Intro
+# 1. Clone esta palntilla
+git clone https://github.com/elipirela/Context-Engineering-espanol.git
+cd Context-Engineering-espanol
 
-# 2. Set up your project rules (optional - template provided)
-# Edit CLAUDE.md to add your project-specific guidelines
+# 2. Configura las reglas del projecto (opcional - plantilla proporcionada)
+# Edita CLAUDE.md para agregar las guías específicas de tu proyecto
 
-# 3. Add examples (highly recommended)
-# Place relevant code examples in the examples/ folder
+# 3. Agrega ejemplos (muy recomendado)
+# Coloca ejemplos relevantes de codigo en la carpeta de ejemplos
 
-# 4. Create your initial feature request
-# Edit INITIAL.md with your feature requirements
+# 4. Crea tu requerimiento de funcioes iniciales
+# Edita INICIO.md utilizando tus requerimientos de funiciones 
 
-# 5. Generate a comprehensive PRP (Product Requirements Prompt)
-# In Claude Code, run:
-/generate-prp INITIAL.md
+# 5. Generar un PRP funcional (Product Requirements Prompt)
+# En Claude Code, run:
+/generate-prp INICIO.md
 
-# 6. Execute the PRP to implement your feature
-# In Claude Code, run:
+# 6. Executar el PRP para implementar tus funciones
+# En Claude Code, run:
 /execute-prp PRPs/your-feature-name.md
 ```
 
 ## 📚 Table of Contents
 
-- [What is Context Engineering?](#what-is-context-engineering)
-- [Template Structure](#template-structure)
-- [Step-by-Step Guide](#step-by-step-guide)
-- [Writing Effective INITIAL.md Files](#writing-effective-initialmd-files)
-- [The PRP Workflow](#the-prp-workflow)
-- [Using Examples Effectively](#using-examples-effectively)
-- [Best Practices](#best-practices)
+- Que es Context Engineering?
+- Etructura de plantilla
+- Guía paso a paso
+- Escribe un archivo de INICIO.md efectivo
+- El flujo de trabajo PRP
+- Usando Ejemplos efectivos
+- Mejores Practicas
 
-## What is Context Engineering?
+## Que es Context Engineering?
 
-Context Engineering represents a paradigm shift from traditional prompt engineering:
+Context Engineering representa un cambio de paradigma del prompt engineering tradicional:
 
 ### Prompt Engineering vs Context Engineering
 
 **Prompt Engineering:**
-- Focuses on clever wording and specific phrasing
-- Limited to how you phrase a task
-- Like giving someone a sticky note
+- Se centra en la redacción inteligente y la formulación específica.
+- Limitado a cómo formulas una tarea
+- Como darle una nota adhesiva a alguien
 
 **Context Engineering:**
-- A complete system for providing comprehensive context
-- Includes documentation, examples, rules, patterns, and validation
-- Like writing a full screenplay with all the details
+- Un sistema completo para proporcionar un contexto integral
+- Incluye documentación, ejemplos, reglas, patrones y validación.
+- Como escribir un guión completo con todos los detalles.
 
-### Why Context Engineering Matters
+### Por que es importante el Context Engineering
 
-1. **Reduces AI Failures**: Most agent failures aren't model failures - they're context failures
-2. **Ensures Consistency**: AI follows your project patterns and conventions
-3. **Enables Complex Features**: AI can handle multi-step implementations with proper context
-4. **Self-Correcting**: Validation loops allow AI to fix its own mistakes
+1. **Reduce las fallas de AI**: MLas fallas del agente ost no son fallas del modelo, son fallas del contexto.
+2. **Asegura Consistencia**: La IA sigue los patrones y convenciones de tu proyecto
+3. **Permite funciones complejas**: La IA puede gestionar implementaciones de varios pasos con el contexto adecuado
+4. **Auto-Corrección**: Los bucles de validación permiten que la IA corrija sus propios errores
 
-## Template Structure
+## Estructura de la Plantilla
 
 ```
-context-engineering-intro/
+context-engineering-espanol/
 ├── .claude/
 │   ├── commands/
 │   │   ├── generate-prp.md    # Generates comprehensive PRPs
