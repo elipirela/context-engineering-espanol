@@ -261,34 +261,34 @@ ejemplos/
     └── conftest.py   # Configuración de Pytest
 ```Asegúrese de que se cumplan todos los criterios de éxito
 
-## Best Practices
+## Mejores Practicas
 
-### 1. Be Explicit in INITIAL.md
-- Don't assume the AI knows your preferences
-- Include specific requirements and constraints
-- Reference examples liberally
+### 1. Sea explícito en INICIO.md
+- No asuma que la IA conoce sus preferencias.
+- Incluya requisitos y restricciones específicos.
+- Haga referencia a ejemplos con liberalidad.
 
-### 2. Provide Comprehensive Examples
-- More examples = better implementations
-- Show both what to do AND what not to do
-- Include error handling patterns
+### 2. Proporcionar ejemplos completos
+- Más ejemplos = mejores implementaciones
+- Mostrar qué hacer y qué no hacer
+- Incluir patrones de gestión de errores
 
-### 3. Use Validation Gates
-- PRPs include test commands that must pass
-- AI will iterate until all validations succeed
-- This ensures working code on first try
+### 3. Utilice puertas de validación
+- Los PRP incluyen comandos de prueba que deben aprobarse.
+- La IA iterará hasta que todas las validaciones sean exitosas.
+- Esto garantiza que el código funcione a la primera.
 
-### 4. Leverage Documentation
-- Include official API docs
-- Add MCP server resources
-- Reference specific documentation sections
+### 4. Documentación de apalancamiento
+- Incluir documentación oficial de la API
+- Añadir recursos del servidor MCP
+- Consultar secciones específicas de la documentación
 
-### 5. Customize CLAUDE.md
-- Add your conventions
-- Include project-specific rules
-- Define coding standards
+### 5. Personalizar CLAUDE.md
+- Añade tus convenciones
+- Incluye reglas específicas del proyecto
+- Define estándares de codificación
 
-## Resources
+## Recursos
 
 - [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)
 - [Context Engineering Best Practices](https://www.philschmid.de/context-engineering)
