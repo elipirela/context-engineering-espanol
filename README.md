@@ -163,51 +163,51 @@ La asistente de codificación AI:
 
 ### Seciones clave Explicadas
 
-**FEATURE**: Be specific and comprehensive
-- ❌ "Build a web scraper"
-- ✅ "Build an async web scraper using BeautifulSoup that extracts product data from e-commerce sites, handles rate limiting, and stores results in PostgreSQL"
+**FEATURE**: Ser específica y completa
+- ❌ "Construir un web scraper"
+- ✅ "Cree un web scraper asincrónico con BeautifulSoup que extrae datos de productos de sitios de comercio electrónico, maneja la limitación de velocidad y almacena los resultados en PostgreSQL."
 
-**EXAMPLES**: Leverage the examples/ folder
-- Place relevant code patterns in `examples/`
-- Reference specific files and patterns to follow
-- Explain what aspects should be mimicked
+**EJEMPLOS**: Aprovechar el archivo examples/ folder
+- Coloque patrones de código relevantes en `examples/`
+- Referencia de archivos y patrones específicos a seguir
+- Explicar qué aspectos deben imitar
 
-**DOCUMENTATION**: Include all relevant resources
-- API documentation URLs
-- Library guides
-- MCP server documentation
-- Database schemas
+**DOCUMENTACION**: Incluya todos los recursos relevantes
+- Documentación API, URLs
+- Guías de Librerías
+- Documentación de servidores MCP
+- Esquemas de Bases de Datos
 
-**OTHER CONSIDERATIONS**: Capture important details
-- Authentication requirements
-- Rate limits or quotas
-- Common pitfalls
-- Performance requirements
+**OTRAR CONSIDERACIONS**: Captura detalles importantes
+- Requisitos de autenticación
+- Límites de tarifas o cuotas
+- Errores comunes
+- Requisitos de rendimiento
 
-## The PRP Workflow
+## El flujo de trabajo del PRP
 
-### How /generate-prp Works
+### Como trabaja /generate-prp 
 
-The command follows this process:
+El comando sigue el siguiente proceso:
 
-1. **Research Phase**
-   - Analyzes your codebase for patterns
-   - Searches for similar implementations
-   - Identifies conventions to follow
+1. **Fase de Investigación**
+   - Analiza su base de código en busca de patrones
+   - Búsquedas de implementaciones similares
+   - Identifica las convenciones a seguir
 
-2. **Documentation Gathering**
-   - Fetches relevant API docs
-   - Includes library documentation
-   - Adds gotchas and quirks
+2. **Recopilación de documentación**
+   - Obtiene documentos API relevantes
+   - Incluye documentación de la biblioteca.
+   - Añade errores y peculiaridades.
 
-3. **Blueprint Creation**
-   - Creates step-by-step implementation plan
-   - Includes validation gates
-   - Adds test requirements
+3. **Creación de planos**
+   - Crea un plan de implementación paso a paso.
+   - Incluye controles de validación.
+   - Añade requisitos de prueba.
 
-4. **Quality Check**
-   - Scores confidence level (1-10)
-   - Ensures all context is included
+4. **Control de calidad**
+   - Califica el nivel de confianza (del 1 al 10)
+   - Garantiza que se incluya todo el contexto
 
 ### How /execute-prp Works
 
