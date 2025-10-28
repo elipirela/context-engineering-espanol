@@ -98,70 +98,70 @@ El archivo `CLAUDE.md` contiene las reglas generales del proyecto que el asisten
 
 ### 2. Crea tu requierimiento inicial de funciones
 
-Edit `INITIAL.md` to describe what you want to build:
+Edita `INICIO.md` para describir que es lo que deseas construir:
 
 ```markdown
 ## FEATURE:
-[Describe what you want to build - be specific about functionality and requirements]
+[Describe lo que quieres construir: sé específico sobre la funcionalidad y los requisitos]
 
-## EXAMPLES:
-[List any example files in the examples/ folder and explain how they should be used]
+## EJEMPLOS:
+[Enumere todos los archivos de ejemplo en la carpeta examples/ y explique cómo deben usarse]
 
-## DOCUMENTATION:
-[Include links to relevant documentation, APIs, or MCP server resources]
+## DOCUMENTACION:
+[Incluya enlaces a documentación relevante, API o recursos del servidor MCP]
 
-## OTHER CONSIDERATIONS:
-[Mention any gotchas, specific requirements, or things AI assistants commonly miss]
+## OTRAS CONSIDERACIONES:
+[Mencione problemas, requisitos específicos o cosas que los asistentes de IA suelen pasar por alto.]
 ```
 
-**See `INITIAL_EXAMPLE.md` for a complete example.**
+**Ver `INITIAL_EXAMPLE.md` para un ejemplo completo.**
 
-### 3. Generate the PRP
+### 3. Generar el PRP
 
-PRPs (Product Requirements Prompts) are comprehensive implementation blueprints that include:
+PRPs (Product Requirements Prompts) son planes de implementación integrales que incluyen:
 
-- Complete context and documentation
-- Implementation steps with validation
-- Error handling patterns
-- Test requirements
+- Contexto completo y documentación
+- Pasos de implementación con validación
+- Patrones de manejo de errores
+- Requisitos de la prueba
 
-They are similar to PRDs (Product Requirements Documents) but are crafted more specifically to instruct an AI coding assistant.
+Son similares a los PRD (Documentos de requisitos del producto) pero están diseñados más específicamente para instruir a un asistente de codificación de IA.
 
-Run in Claude Code:
+Run en Claude Code:
 ```bash
-/generate-prp INITIAL.md
+/generate-prp INICIO.md
 ```
 
-**Note:** The slash commands are custom commands defined in `.claude/commands/`. You can view their implementation:
-- `.claude/commands/generate-prp.md` - See how it researches and creates PRPs
-- `.claude/commands/execute-prp.md` - See how it implements features from PRPs
+**Note:** Los comandos slash / son comandos personalizados definidos en `.claude/commands/`. Puedes ver su implementación:
+- `.claude/commands/generate-prp.md` - Vea cómo investiga y crea PRP
+- `.claude/commands/execute-prp.md` - Vea cómo implementa funciones de PRP
 
-The `$ARGUMENTS` variable in these commands receives whatever you pass after the command name (e.g., `INITIAL.md` or `PRPs/your-feature.md`).
+La variable `$ARGUMENTS` en estos comandos recibe lo que pase después del nombre del comando (e.g., `INITIAL.md` or `PRPs/your-feature.md`).
 
-This command will:
-1. Read your feature request
-2. Research the codebase for patterns
-3. Search for relevant documentation
-4. Create a comprehensive PRP in `PRPs/your-feature-name.md`
+Este comando:
+1. Lee tu solicitud de función
+2. Investigar la base del código en busca de patrones
+3. Búsqueda de documentación relevante
+4. Crear un PRP integral en `PRPs/your-feature-name.md`
 
-### 4. Execute the PRP
+### 4. Executar el PRP
 
-Once generated, execute the PRP to implement your feature:
+Una vez generado, ejecute el PRP para implementar su función:
 
 ```bash
 /execute-prp PRPs/your-feature-name.md
 ```
 
-The AI coding assistant will:
-1. Read all context from the PRP
-2. Create a detailed implementation plan
-3. Execute each step with validation
-4. Run tests and fix any issues
-5. Ensure all success criteria are met
+La asistente de codificación AI:
+1. Lea todo el contexto del PRP
+2. Crear un plan de implementación detallado
+3. Ejecutar cada paso con validación
+4. Ejecute pruebas y solucione cualquier problema
+5. Asegúrese de que se cumplan todos los criterios de éxito
 
-## Writing Effective INITIAL.md Files
+## Escriba un arhivo INICIO.md efectivo
 
-### Key Sections Explained
+### Seciones clave Explicadas
 
 **FEATURE**: Be specific and comprehensive
 - ❌ "Build a web scraper"
@@ -259,7 +259,7 @@ examples/
 └── tests/            # Testing patterns
     ├── test_agent.py # Unit test patterns
     └── conftest.py   # Pytest configuration
-```
+```Asegúrese de que se cumplan todos los criterios de éxito
 
 ## Best Practices
 
