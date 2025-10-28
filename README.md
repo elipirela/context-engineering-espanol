@@ -6,7 +6,7 @@ Una plantilla completa para comenzar con Context Engineering: la disciplina de C
 ## 🚀 Quick Start
 
 ```bash
-# 1. Clone esta palntilla
+# 1. Clone esta plantilla
 git clone https://github.com/elipirela/Context-Engineering-espanol.git
 cd Context-Engineering-espanol
 
@@ -67,37 +67,36 @@ Context Engineering representa un cambio de paradigma del prompt engineering tra
 context-engineering-espanol/
 ├── .claude/
 │   ├── commands/
-│   │   ├── generate-prp.md    # Generates comprehensive PRPs
-│   │   └── execute-prp.md     # Executes PRPs to implement features
-│   └── settings.local.json    # Claude Code permissions
+│   │   ├── generate-prp.md    # Genera PRP completos
+│   │   └── execute-prp.md     # Ejecuta PRP para implementar funciones
+│   └── settings.local.json    # Permisos de Claude Code
 ├── PRPs/
 │   ├── templates/
-│   │   └── prp_base.md       # Base template for PRPs
-│   └── EXAMPLE_multi_agent_prp.md  # Example of a complete PRP
-├── examples/                  # Your code examples (critical!)
-├── CLAUDE.md                 # Global rules for AI assistant
-├── INITIAL.md               # Template for feature requests
-├── INITIAL_EXAMPLE.md       # Example feature request
-└── README.md                # This file
+│   │   └── prp_base.md       # Plantilla base para PRP
+│   └── EXAMPLE_multi_agent_prp.md  # Ejemplo de un PRP completo
+├── ejemplos/                  # Ejemplos de codigo (critical!)
+├── CLAUDE.md                 # Reglas globales para el asistente de IA
+├── INICIO.md               # Plantilla para solicitudes de funciones
+├── INITIAL_EXAMPLE.md       # Ejemplo de solicitud de función
+└── README.md                # Este archivo
 ```
 
-This template doesn't focus on RAG and tools with context engineering because I have a LOT more in store for that soon. ;)
 
-## Step-by-Step Guide
+## Guía paso a paso
 
-### 1. Set Up Global Rules (CLAUDE.md)
+### 1. Configura reglas globales (CLAUDE.md)
 
-The `CLAUDE.md` file contains project-wide rules that the AI assistant will follow in every conversation. The template includes:
+El archivo `CLAUDE.md` contiene las reglas generales del proyecto que el asistente de IA seguirá en cada conversación. La plantilla incluye:
 
-- **Project awareness**: Reading planning docs, checking tasks
-- **Code structure**: File size limits, module organization
-- **Testing requirements**: Unit test patterns, coverage expectations
-- **Style conventions**: Language preferences, formatting rules
-- **Documentation standards**: Docstring formats, commenting practices
+- **Reconocimiento del Projecto**: Lectura de documentos de planificación, comprobación de tareas
+- **Estructura de Codigo**: Límites de tamaño de archivo, organización del módulo
+- **Requerimientos de pruebas**: Patrones de pruebas unitarias, expectativas de cobertura
+- **Convenciones de estilos**: Preferencias de idioma, reglas de formato
+- **Estándares de la Documentación**: Formatos de cadenas de documentación, prácticas de comentarios
 
-**You can use the provided template as-is or customize it for your project.**
+**Puede utilizar la plantilla proporcionada tal como está o personalizarla para su proyecto..**
 
-### 2. Create Your Initial Feature Request
+### 2. Crea tu requierimiento inicial de funciones
 
 Edit `INITIAL.md` to describe what you want to build:
 
