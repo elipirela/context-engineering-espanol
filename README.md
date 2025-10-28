@@ -209,56 +209,56 @@ El comando sigue el siguiente proceso:
    - Califica el nivel de confianza (del 1 al 10)
    - Garantiza que se incluya todo el contexto
 
-### How /execute-prp Works
+### Como trabaja el /execute-prp 
 
-1. **Load Context**: Reads the entire PRP
-2. **Plan**: Creates detailed task list using TodoWrite
-3. **Execute**: Implements each component
-4. **Validate**: Runs tests and linting
-5. **Iterate**: Fixes any issues found
-6. **Complete**: Ensures all requirements met
+1. **Carga el Contexto**: Lee el PRP completamente
+2. **Plan**: Crea una lista detallada de tareas usando TodoWrite
+3. **Ejecuta**: Implementa cada componente
+4. **Valida**: Corre tests y linting
+5. **Itera**: Corrige cualquier problema encontrado
+6. **Completa**: Garantiza que se cumplan todos los requisitos
 
-See `PRPs/EXAMPLE_multi_agent_prp.md` for a complete example of what gets generated.
+Ver `PRPs/EXAMPLE_multi_agent_prp.md` para un ejemplo completo de lo que se genera.
 
-## Using Examples Effectively
+## Usando Ejempls Efectivamente
 
-The `examples/` folder is **critical** for success. AI coding assistants perform much better when they can see patterns to follow.
+La carpeta`examplos/`  es **critical** para el éxito. Los asistentes de codificación de IA funcionan mucho mejor cuando pueden ver patrones a seguir.
 
-### What to Include in Examples
+### Qué incluir en los ejemplos
 
-1. **Code Structure Patterns**
-   - How you organize modules
-   - Import conventions
-   - Class/function patterns
+1. **Patrones de estructura de código**
+   - Cómo organizar los módulos
+   - Convenciones de importación
+   - Patrones de clase/función
 
-2. **Testing Patterns**
-   - Test file structure
-   - Mocking approaches
-   - Assertion styles
+2. **Patrones de prueba**
+   - Estructura del archivo de prueba
+   - Enfoques de simulación
+   - Estilos de aserción
 
-3. **Integration Patterns**
-   - API client implementations
-   - Database connections
-   - Authentication flows
+3. **Patrones de integración**
+   - Implementaciones de API de cliente
+   - Conexiones a bases de datos
+   - Flujos de autenticación
 
-4. **CLI Patterns**
-   - Argument parsing
-   - Output formatting
-   - Error handling
+4. **Patrones CLI**
+   - Análisis de argumentos
+   - Formato de salida
+   - Gestión de errores
 
-### Example Structure
+### Estructura Ejemplo
 
 ```
-examples/
-├── README.md           # Explains what each example demonstrates
-├── cli.py             # CLI implementation pattern
-├── agent/             # Agent architecture patterns
-│   ├── agent.py      # Agent creation pattern
-│   ├── tools.py      # Tool implementation pattern
-│   └── providers.py  # Multi-provider pattern
-└── tests/            # Testing patterns
-    ├── test_agent.py # Unit test patterns
-    └── conftest.py   # Pytest configuration
+ejemplos/
+├── README.md           # Explica lo que demuestra cada ejemplo.
+├── cli.py             # Patrón de implementación de CLI
+├── agent/             # Patrones de arquitectura de agentes
+│   ├── agent.py      # Patrón de creación de agentes
+│   ├── tools.py      # Patrón de implementación de herramientas
+│   └── providers.py  # Patrón multiproveedor
+└── tests/            # Patrones de prueba
+    ├── test_agent.py # Patrones de pruebas unitarias
+    └── conftest.py   # Configuración de Pytest
 ```Asegúrese de que se cumplan todos los criterios de éxito
 
 ## Best Practices
