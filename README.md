@@ -72,13 +72,13 @@ context-engineering-espanol/
 │   └── settings.local.json    # Permisos de Claude Code
 ├── PRPs/
 │   ├── templates/
-│   │   └── prp_base.md       # Plantilla base para PRP
+│   │   └── prp_base.md        # Plantilla base para PRP
 │   └── EXAMPLE_multi_agent_prp.md  # Ejemplo de un PRP completo
-├── ejemplos/                  # Ejemplos de codigo (critical!)
+├── ejemplos/                 # Ejemplos de codigo (critical!)
 ├── CLAUDE.md                 # Reglas globales para el asistente de IA
-├── INICIO.md               # Plantilla para solicitudes de funciones
-├── INITIAL_EXAMPLE.md       # Ejemplo de solicitud de función
-└── README.md                # Este archivo
+├── INICIO.md                 # Plantilla para solicitudes de funciones
+├── INITIAL_EXAMPLE.md        # Ejemplo de solicitud de función
+└── README.md                 # Este archivo
 ```
 
 
@@ -136,20 +136,20 @@ Run en Claude Code:
 - `.claude/commands/generate-prp.md` - Vea cómo investiga y crea PRP
 - `.claude/commands/execute-prp.md` - Vea cómo implementa funciones de PRP
 
-La variable `$ARGUMENTS` en estos comandos recibe lo que pase después del nombre del comando (e.g., `INITIAL.md` or `PRPs/your-feature.md`).
+La variable `$ARGUMENTS` en estos comandos recibe lo que pase después del nombre del comando (e.g., `INICIO.md` o `PRPs/nombre-de-tu-archivo.md`).
 
 Este comando:
 1. Lee tu solicitud de función
 2. Investigar la base del código en busca de patrones
 3. Búsqueda de documentación relevante
-4. Crear un PRP integral en `PRPs/your-feature-name.md`
+4. Crear un PRP integral en `PRPs/nombre-de-tu-archivo.md`
 
 ### 4. Executar el PRP
 
 Una vez generado, ejecute el PRP para implementar su función:
 
 ```bash
-/execute-prp PRPs/your-feature-name.md
+/execute-prp PRPs/nombre-de-tu-archivo.md
 ```
 
 La asistente de codificación AI:
@@ -200,7 +200,7 @@ El comando sigue el siguiente proceso:
    - Incluye documentación de la biblioteca.
    - Añade errores y peculiaridades.
 
-3. **Creación de planos**
+3. **Creación de planes**
    - Crea un plan de implementación paso a paso.
    - Incluye controles de validación.
    - Añade requisitos de prueba.
@@ -220,9 +220,9 @@ El comando sigue el siguiente proceso:
 
 Ver `PRPs/EXAMPLE_multi_agent_prp.md` para un ejemplo completo de lo que se genera.
 
-## Usando Ejempls Efectivamente
+## Usando Ejemplos de manera Efectiva
 
-La carpeta`examplos/`  es **critical** para el éxito. Los asistentes de codificación de IA funcionan mucho mejor cuando pueden ver patrones a seguir.
+La carpeta`examplos/`  es **critica** para el éxito. Los asistentes de codificación de IA funcionan mucho mejor cuando pueden ver patrones a seguir.
 
 ### Qué incluir en los ejemplos
 
@@ -250,9 +250,9 @@ La carpeta`examplos/`  es **critical** para el éxito. Los asistentes de codific
 
 ```
 ejemplos/
-├── README.md           # Explica lo que demuestra cada ejemplo.
-├── cli.py             # Patrón de implementación de CLI
-├── agent/             # Patrones de arquitectura de agentes
+├── README.md         # Explica lo que demuestra cada ejemplo.
+├── cli.py            # Patrón de implementación de CLI
+├── agent/            # Patrones de arquitectura de agentes
 │   ├── agent.py      # Patrón de creación de agentes
 │   ├── tools.py      # Patrón de implementación de herramientas
 │   └── providers.py  # Patrón multiproveedor
