@@ -1,7 +1,7 @@
 # Plantilla Context Engineering
 
-Una plantilla completa para comenzar con Context Engineering: la disciplina de Context Engineering para asistentes de codificación de IA para que tengan la información necesaria para realizar el trabajo de principio a fin.
-> **Context Engineering is 10x mejor que prompt engineering y 100x mejor vibe coding.**
+A continuación se presenta una plantilla completa para comenzar con Context Engineering: la disciplina de Context Engineering para asistentes de código de IA para que tengan la información necesaria para realizar el trabajo de principio a fin.
+> **Context Engineering is 10x mejor que prompt engineering y 100x mejor que vibe coding.**
 
 ## 🚀 Quick Start
 
@@ -10,25 +10,25 @@ Una plantilla completa para comenzar con Context Engineering: la disciplina de C
 git clone https://github.com/elipirela/Context-Engineering-espanol.git
 cd Context-Engineering-espanol
 
-# 2. Configura las reglas del projecto (opcional - plantilla proporcionada)
+# 2. Configura las reglas del proyecto (opcional - plantilla proporcionada)
 # Edita CLAUDE.md para agregar las guías específicas de tu proyecto
 
 # 3. Agrega ejemplos (muy recomendado)
-# Coloca ejemplos relevantes de codigo en la carpeta de ejemplos
+# Coloca ejemplos relevantes de código en la carpeta de ejemplos
 
 # 4. Crea tu requerimiento de funcioes iniciales
 # Edita INICIO.md utilizando tus requerimientos de funiciones 
 
-# 5. Generar un PRP funcional (Product Requirements Prompt)
-# En Claude Code, run:
+# 5. Genera un PRP funcional (Product Requirements Prompt)
+# En Claude Code, VSC, Cursor, etc. run:
 /generate-prp INICIO.md
 
 # 6. Executar el PRP para implementar tus funciones
-# En Claude Code, run:
-/execute-prp PRPs/your-feature-name.md
+# En Claude Code, VSC, Cursor, etc. run:
+/execute-prp PRPs/nombre-de-tu-archivo.md
 ```
 
-## 📚 Table of Contents
+## 📚 Tabla de Contenido
 
 - Que es Context Engineering?
 - Etructura de plantilla
@@ -56,7 +56,7 @@ Context Engineering representa un cambio de paradigma del prompt engineering tra
 
 ### Por que es importante el Context Engineering
 
-1. **Reduce las fallas de AI**: MLas fallas del agente ost no son fallas del modelo, son fallas del contexto.
+1. **Reduce las fallas de AI**: Las fallas del agente no son fallas del modelo, son fallas del contexto.
 2. **Asegura Consistencia**: La IA sigue los patrones y convenciones de tu proyecto
 3. **Permite funciones complejas**: La IA puede gestionar implementaciones de varios pasos con el contexto adecuado
 4. **Auto-Corrección**: Los bucles de validación permiten que la IA corrija sus propios errores
@@ -94,7 +94,7 @@ El archivo `CLAUDE.md` contiene las reglas generales del proyecto que el asisten
 - **Convenciones de estilos**: Preferencias de idioma, reglas de formato
 - **Estándares de la Documentación**: Formatos de cadenas de documentación, prácticas de comentarios
 
-**Puede utilizar la plantilla proporcionada tal como está o personalizarla para su proyecto..**
+**Puedes utilizar la plantilla proporcionada tal como está o personalizarla para tu proyecto..**
 
 ### 2. Crea tu requierimiento inicial de funciones
 
